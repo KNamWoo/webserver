@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            width: 200px;
+            color: #505050;
+            font-size: 1.2em;
+        }
+        div{
+            width: 600px;
+            background: #ddccaa;
+            border: thin #9390aa dashed;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>지역별 소액임차보증금 한도 조회</h1>
+    <form action="08_sw.php" method="get">
+        <div>
+            <label>지역입력 (시/도 단위로 입력)</label>
+            <input type="text" name="city"/>
+            <button>계산결과</button>
+        </div>
+    </form>
+</body>
+</html>
