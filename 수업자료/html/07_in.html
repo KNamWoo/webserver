@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            label{
+                width: 130px;
+                color: #505050;
+                font-size: 1.2em;
+            }
+
+            div{
+                width: 400px;
+                background: #ddccaa;
+                border: thin #9390aa dashed;
+                padding: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>상가임대차 환산보증금 안내</h1>
+        <form action="07_if.php" method="get">
+            <div>
+                <label>대상지역</label><input type="text" name="town"><br>
+                <label>점포 보증금</label><input type="text" name="money"><br>
+                <label>점포 임대료</label><input type="text" name="rentpay"><br>
+                <button>계산결과</button>
+            </div>
+        </form>
+    </body>
+</html>
