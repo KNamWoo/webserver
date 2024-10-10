@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가위 바위 보 게임</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* 기본 글꼴 설정 */
+            text-align: center; /* 텍스트 중앙 정렬 */
+            margin-top: 50px; /* 상단 여백 설정 */
+        }
+        input[type="button"] {
+            padding: 10px 20px; /* 버튼 안쪽 여백 */
+            font-size: 18px; /* 버튼 글꼴 크기 */
+            margin: 10px; /* 버튼 간격 */
+            cursor: pointer; /* 커서 스타일 변경 */
+            border: none; /* 테두리 제거 */
+            border-radius: 5px; /* 모서리 둥글게 */
+            background-color: #007BFF; /* 배경색 설정 */
+            color: white; /* 글자색 흰색 */
+        }
+        input[type="button"]:hover {
+            background-color: #0056b3; /* 버튼에 마우스 오버 시 배경색 변경 */
+        }
+    </style>
+</head>
+<body>
+    <FORM name="form">
+        <INPUT type="button" value="가위" onClick="location.href='rock.php?s=가위'"> <!-- 가위 버튼 -->
+        <INPUT type="button" value="바위" onClick="location.href='rock.php?s=바위'"> <!-- 바위 버튼 -->
+        <INPUT type="button" value="보" onClick="location.href='rock.php?s=보'"> <!-- 보 버튼 -->
+    </FORM>
+</body>
+</html>
