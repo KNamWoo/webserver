@@ -1,0 +1,28 @@
+.gugu-container {
+    font-family: monospace;
+    white-space: pre-wrap;
+    padding: 10px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.gugu-row {
+    display: flex;
+}
+
+.gugu-cell {
+    width: 150px;
+    height: 45px;
+    padding: 5px;
+    border-left: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+}
+
+.gugu-cell:first-child {
+    border-left: none; /*제일 왼쪽 테두리 제거*/
+}
+
+.gugu-cell + .gugu-cell {
+    margin-left: 5px; /*셀의 간격*/
+}
