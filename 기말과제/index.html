@@ -8,18 +8,26 @@
 </head>
 <body>
 
-<header>
-    <h1>게시판</h1>
-    <nav>
-        <a href="#">홈</a>
-        <a href="#">게시글</a>
-        <a href="#">뉴스</a>
-        <a href="#">Q&A</a>
+<ul id="navbar">
+    <li style="float: left;">
+        <a class="active" id="home" href="index.html">게시판</a>
+    </li>
+    <li style="float: right; display: flex; height: 100%;">
+        <a href="#">전체 게시물</a>
+        <a href="./recent-posts.html">최근 게시물</a>
+        <a href="./popular-posts.html">인기 게시물</a>
         <a href="#">공지사항</a>
         <a href="./login/login.html">로그인</a>
-        <a href="./signup/signup.html">회원가입</a>
-    </nav>
-</header>
+    </li>
+    <li class="dropdown" style="float: right; display: flex; height: 100%;">
+        <a href="#" class="dropbtn">마이페이지</a>
+        <div class="dropdown-content">
+            <a href="./my-posts.html">내가 쓴 글</a>
+            <a href="./liked-posts.html">좋아요한 글</a>
+            <a href="#">설정</a>
+        </div>
+    </li>
+</ul>
 
 <div class="container">
     <!-- 왼쪽 위: 최근 글 -->

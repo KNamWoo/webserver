@@ -27,7 +27,6 @@ ul {
 }
 
 li {
-    position: relative;
     display: flex;
     align-items: stretch;
     height: 100%;
@@ -65,41 +64,6 @@ li a:hover{
     color: black;
 }
 
-/* 드롭다운 버튼 */
-.dropbtn {
-    font-size: 16px;
-}
-
-/* 드롭다운 메뉴 컨테이너 */
-.dropdown-content {
-    display: none; /* 기본적으로 숨김 */
-    position: absolute;
-    background-color: #444;
-    min-width: 160px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    flex-direction: column;
-}
-
-/* 드롭다운 메뉴 내부 항목 */
-.dropdown-content a {
-    color: white;
-    width: auto;
-    height: auto;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #555;
-}
-
-/* 마우스를 올릴 때 드롭다운 표시 */
-.dropdown:hover .dropdown-content {
-    display: flex; /* 드롭다운 메뉴 보이기 */
-}
-
 /* 그리드 레이아웃 (모든 칸을 포함하는 제일 큰 칸의 크기) */
 .container {
     display: grid;
@@ -113,35 +77,6 @@ li a:hover{
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     align-items: stretch; /* 칸을 늘려서 부모 크기 맞추기 */
-}
-
-/* 섹션 스타일 */
-.section {
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-    width: auto; /* 가로폭을 부모 크기에 맞춤 */
-    height: auto; /* 세로 크기도 부모 크기에 맞춤 */
-}
-
-/* 구분선 추가 */
-.section::after {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background-color: #ddd;
-    margin-top: 15px;
-}
-
-.section h2 {
-    text-align: center;
-    color: #333;
 }
 
 /* 게시판 리스트 스타일 */
