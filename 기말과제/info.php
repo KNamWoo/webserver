@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>최근 글 - 게시판</title>
-    <link rel="stylesheet" href="recent-posts.css">
+    <link rel="stylesheet" href="info.css">
 </head>
 <body>
 <ul id="navbar">
     <li style="float: left;">
-        <a id="home" href="index.html">게시판</a>
+        <a class="active" id="home" href="commu.php">마켓</a>
+    </li>
+    <li class="dropdown" style="float: right; display: flex; height: 100%;">
+        <a class="dropbtn">내 정보</a>
+        <div class="dropdown-content">
+            <a href="./my-posts.php">내가 올린 상품</a>
+            <a href="./liked-posts.php">좋아요한 상품</a>
+            <a href="./my-cart.php">장바구니</a>
+            <a href="#">개인정보 수정</a>
+        </div>
     </li>
     <li style="float: right; display: flex; height: 100%;">
-        <a href="#">전체 게시물</a>
-        <a class="active" href="./recent-posts.html">최근 게시물</a>
-        <a href="./popular-posts.html">인기 게시물</a>
-        <a href="#">공지사항</a>
-        <a href="#">마이페이지</a>
-        <a href="./login/login.html">로그인</a>
+        <a href="all-goods.php">전체 상품</a>
+        <a href="info.php">공지사항</a>
+        <a href="./login/login.php">로그인</a>
     </li>
 </ul>
 

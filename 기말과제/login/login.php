@@ -21,7 +21,7 @@
             <input type="password" id="password" name="password" required>
         </div>
         <button type="submit">로그인</button>
-        <p class="redirect">계정이 없으신가요? <a href="../signup/signup.html">회원가입</a></p>
+        <p class="redirect">계정이 없으신가요? <a href="../signup/signup.php">회원가입</a></p>
     </form>
 </div>
 

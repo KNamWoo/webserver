@@ -29,7 +29,7 @@
             <input type="email" id="email" name="email" required>
         </div>
         <button type="submit">회원가입</button>
-        <p class="redirect">이미 계정이 있으신가요? <a href="../login/login.html">로그인</a></p>
+        <p class="redirect">이미 계정이 있으신가요? <a href="../login/login.php">로그인</a></p>
     </form>
 </div>
 
