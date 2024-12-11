@@ -203,3 +203,85 @@ footer {
     position: relative;
     bottom: 0;
 }
+
+#home-selection {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#home-selection .btn {
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#home-selection .btn:hover {
+    background-color: #575757;
+}
+
+#game-selection {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* 입력 필드 스타일 */
+input[type="text"], 
+textarea, 
+input[type="number"], 
+input[type="password"] {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, 
+textarea:focus, 
+input[type="number"]:focus, 
+input[type="password"]:focus {
+    border-color: #007BFF; /* 포커스 시 파란색 강조 */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+/* 텍스트 박스 스타일 */
+textarea {
+    height: 150px; /* 기본 높이 */
+    resize: vertical; /* 사용자 조정 허용 (세로) */
+}
+
+/* 버튼 스타일 */
+button[type="submit"], 
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover, 
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+button[type="submit"]:active, 
+button:active {
+    background-color: #003f7f;
+    transform: translateY(0);
+}
+
